@@ -51,19 +51,20 @@ body {
 }
 
 @media (max-width: 992px) {
-  // .container {
-  //   max-width: 666px;
-  // }
+  .container {
+    max-width: 750px;
+  }
 }
 
 @media (max-width: 767px) {
-  // .container {
-  //   max-width: 500px;
-  // }
+  .container {
+    max-width: 630px;
+  }
 }
 
 @media (max-width: 575px) {
-  // .container {
-  //   width: 277px;
-  // }
+  .container {
+    max-width: 288px;
+  }
+  
 }

@@ -21,7 +21,7 @@ function Coursel() {
   };
 
   return (
-    <section id="slider" className="container">
+    <section id="slider" className={`container ${styled.slider__section}`}>
       <div className={styled.slider__wrapper}>
         <Slider {...settings}>
           {sliderItems.map((item, key) => (

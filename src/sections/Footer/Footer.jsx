@@ -9,9 +9,17 @@ function Footer() {
         <div className="container">
           <div className={styled.footer__wrapper}>
             <div className={styled.logo}>
-              <img src="/icons/logo.svg" alt="logo" />
+              <img
+                src="/icons/logo.svg"
+                alt="logo"
+                className={styled.footer__img}
+              />
               <div className={styled.footer__logo}>
-                <img src="/icons/copyrigth.svg" alt="copyrigth" />
+                <img
+                  src="/icons/copyrigth.svg"
+                  alt="copyrigth"
+                  className={styled.footer__img_m}
+                />
                 2024 Kazan. Все права защищены.
               </div>
             </div>
